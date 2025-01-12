@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5B50E85A2D337E7C00DD7496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B50E83D2D337E7B00DD7496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B50E8442D337E7B00DD7496;
+			remoteInfo = Zatoory;
+		};
+		5B50E8642D337E7C00DD7496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B50E83D2D337E7B00DD7496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B50E8442D337E7B00DD7496;
+			remoteInfo = Zatoory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B50E8452D337E7B00DD7496 /* Zatoory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zatoory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B50E8592D337E7C00DD7496 /* ZatooryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZatooryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B50E8632D337E7C00DD7496 /* ZatooryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZatooryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5B50E86B2D337E7C00DD7496 /* Exceptions for "Zatoory" folder in "Zatoory" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5B50E8442D337E7B00DD7496 /* Zatoory */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5B50E8472D337E7B00DD7496 /* Zatoory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B50E86B2D337E7C00DD7496 /* Exceptions for "Zatoory" folder in "Zatoory" target */,
+			);
+			path = Zatoory;
+			sourceTree = "<group>";
+		};
+		5B50E85C2D337E7C00DD7496 /* ZatooryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZatooryTests;
+			sourceTree = "<group>";
+		};
+		5B50E8662D337E7C00DD7496 /* ZatooryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZatooryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B50E8422D337E7B00DD7496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B50E8562D337E7C00DD7496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B50E8602D337E7C00DD7496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B50E83C2D337E7B00DD7496 = {
+			isa = PBXGroup;
+			children = (
+				5B50E8472D337E7B00DD7496 /* Zatoory */,
+				5B50E85C2D337E7C00DD7496 /* ZatooryTests */,
+				5B50E8662D337E7C00DD7496 /* ZatooryUITests */,
+				5B50E8462D337E7B00DD7496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B50E8462D337E7B00DD7496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B50E8452D337E7B00DD7496 /* Zatoory.app */,
+				5B50E8592D337E7C00DD7496 /* ZatooryTests.xctest */,
+				5B50E8632D337E7C00DD7496 /* ZatooryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B50E8442D337E7B00DD7496 /* Zatoory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B50E86C2D337E7C00DD7496 /* Build configuration list for PBXNativeTarget "Zatoory" */;
+			buildPhases = (
+				5B50E8412D337E7B00DD7496 /* Sources */,
+				5B50E8422D337E7B00DD7496 /* Frameworks */,
+				5B50E8432D337E7B00DD7496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5B50E8472D337E7B00DD7496 /* Zatoory */,
+			);
+			name = Zatoory;
+			packageProductDependencies = (
+			);
+			productName = Zatoory;
+			productReference = 5B50E8452D337E7B00DD7496 /* Zatoory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B50E8582D337E7C00DD7496 /* ZatooryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B50E8712D337E7C00DD7496 /* Build configuration list for PBXNativeTarget "ZatooryTests" */;
+			buildPhases = (
+				5B50E8552D337E7C00DD7496 /* Sources */,
+				5B50E8562D337E7C00DD7496 /* Frameworks */,
+				5B50E8572D337E7C00DD7496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B50E85B2D337E7C00DD7496 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B50E85C2D337E7C00DD7496 /* ZatooryTests */,
+			);
+			name = ZatooryTests;
+			packageProductDependencies = (
+			);
+			productName = ZatooryTests;
+			productReference = 5B50E8592D337E7C00DD7496 /* ZatooryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B50E8622D337E7C00DD7496 /* ZatooryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B50E8742D337E7C00DD7496 /* Build configuration list for PBXNativeTarget "ZatooryUITests" */;
+			buildPhases = (
+				5B50E85F2D337E7C00DD7496 /* Sources */,
+				5B50E8602D337E7C00DD7496 /* Frameworks */,
+				5B50E8612D337E7C00DD7496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B50E8652D337E7C00DD7496 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B50E8662D337E7C00DD7496 /* ZatooryUITests */,
+			);
+			name = ZatooryUITests;
+			packageProductDependencies = (
+			);
+			productName = ZatooryUITests;
+			productReference = 5B50E8632D337E7C00DD7496 /* ZatooryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B50E83D2D337E7B00DD7496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5B50E8442D337E7B00DD7496 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5B50E8582D337E7C00DD7496 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5B50E8442D337E7B00DD7496;
+					};
+					5B50E8622D337E7C00DD7496 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5B50E8442D337E7B00DD7496;
+					};
+				};
+			};
+			buildConfigurationList = 5B50E8402D337E7B00DD7496 /* Build configuration list for PBXProject "Zatoory" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B50E83C2D337E7B00DD7496;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5B50E8462D337E7B00DD7496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B50E8442D337E7B00DD7496 /* Zatoory */,
+				5B50E8582D337E7C00DD7496 /* ZatooryTests */,
+				5B50E8622D337E7C00DD7496 /* ZatooryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B50E8432D337E7B00DD7496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B50E8572D337E7C00DD7496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B50E8612D337E7C00DD7496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B50E8412D337E7B00DD7496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B50E8552D337E7C00DD7496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B50E85F2D337E7C00DD7496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B50E85B2D337E7C00DD7496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B50E8442D337E7B00DD7496 /* Zatoory */;
+			targetProxy = 5B50E85A2D337E7C00DD7496 /* PBXContainerItemProxy */;
+		};
+		5B50E8652D337E7C00DD7496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B50E8442D337E7B00DD7496 /* Zatoory */;
+			targetProxy = 5B50E8642D337E7C00DD7496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B50E86D2D337E7C00DD7496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zatoory/Zatoory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zatoory/Preview Content\"";
+				DEVELOPMENT_TEAM = UFYNJ2DK59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zatoory/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.Zatoory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B50E86E2D337E7C00DD7496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zatoory/Zatoory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zatoory/Preview Content\"";
+				DEVELOPMENT_TEAM = UFYNJ2DK59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zatoory/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.Zatoory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B50E86F2D337E7C00DD7496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B50E8702D337E7C00DD7496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B50E8722D337E7C00DD7496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UFYNJ2DK59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ZatooryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zatoory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zatoory";
+			};
+			name = Debug;
+		};
+		5B50E8732D337E7C00DD7496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UFYNJ2DK59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ZatooryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zatoory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zatoory";
+			};
+			name = Release;
+		};
+		5B50E8752D337E7C00DD7496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UFYNJ2DK59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ZatooryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zatoory;
+			};
+			name = Debug;
+		};
+		5B50E8762D337E7C00DD7496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UFYNJ2DK59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ZatooryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zatoory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B50E8402D337E7B00DD7496 /* Build configuration list for PBXProject "Zatoory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B50E86F2D337E7C00DD7496 /* Debug */,
+				5B50E8702D337E7C00DD7496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B50E86C2D337E7C00DD7496 /* Build configuration list for PBXNativeTarget "Zatoory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B50E86D2D337E7C00DD7496 /* Debug */,
+				5B50E86E2D337E7C00DD7496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B50E8712D337E7C00DD7496 /* Build configuration list for PBXNativeTarget "ZatooryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B50E8722D337E7C00DD7496 /* Debug */,
+				5B50E8732D337E7C00DD7496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B50E8742D337E7C00DD7496 /* Build configuration list for PBXNativeTarget "ZatooryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B50E8752D337E7C00DD7496 /* Debug */,
+				5B50E8762D337E7C00DD7496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B50E83D2D337E7B00DD7496 /* Project object */;
+}
