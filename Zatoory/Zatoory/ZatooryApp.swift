@@ -2,7 +2,7 @@
 //  ZatooryApp.swift
 //  Zatoory
 //
-//  Created by Tyrell_07 on 1/12/25.
+//  Created by Martin on 1/12/25.
 //
 
 import SwiftUI

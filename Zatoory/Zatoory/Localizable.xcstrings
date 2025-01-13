@@ -1,0 +1,28 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add Item" : {
+
+    },
+    "Hello, World!" : {
+
+    },
+    "Item at %@" : {
+
+    },
+    "Select an item" : {
+
+    },
+    "tab_today_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오늘"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
