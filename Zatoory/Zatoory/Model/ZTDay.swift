@@ -10,5 +10,5 @@ import Foundation
 struct ZTDay: Identifiable, Hashable {
     var id: String = UUID().uuidString
     var date: Date
-    var actions: [ZTAction]
+    var plans: [ZTPlan]
 }

@@ -7,12 +7,24 @@
 
 import SwiftUI
 
-enum ZTColor: Hashable {
-    var red: Color { Color.ztRed }
-    var orange: Color { Color.ztOrange }
-    var yellow: Color { Color.ztYellow }
-    var green: Color { Color.ztGreen }
-    var blue: Color { Color.ztBlue }
-    var indigo: Color { Color.ztIndigo }
-    var purple: Color { Color.ztPurple }
+enum ZTColor: String, Hashable {
+   case red
+   case orange
+   case yellow
+   case green
+   case blue
+   case indigo
+   case purple
+    
+    var paired: Color {
+        switch self {
+        case .red: Color.ztRed
+        case .orange: Color.ztOrange
+        case .yellow: Color.ztYellow
+        case .green: Color.ztGreen
+        case .blue: Color.ztBlue
+        case .indigo: Color.ztIndigo
+        case .purple: Color.ztPurple
+        }
+    }
 }
